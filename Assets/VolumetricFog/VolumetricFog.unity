@@ -217,8 +217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
     albedo: {r: 1, g: 1, b: 1, a: 1}
-    meanFreePath: 5
-    blendingMode: 1
+    meanFreePath: 1
+    blendingMode: 2
     priority: 0
     anisotropy: 0
     volumeMask: {fileID: 11700000, guid: c32b368776b68ac4aab8ec367dbe1628, type: 3}
