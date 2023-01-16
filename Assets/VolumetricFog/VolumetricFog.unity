@@ -187,7 +187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &733632578
 Transform:
   m_ObjectHideFlags: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: -0, y: 0, z: -0}
+    textureOffset: {x: 0, y: 0, z: 0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 1490676036}
   - component: {fileID: 1490676035}
   - component: {fileID: 1490676034}
+  - component: {fileID: 1490676037}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -814,6 +815,29 @@ Transform:
   m_Father: {fileID: 1121921980}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1490676037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490676033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionAmount:
+    x: 0
+    y: 0
+    z: 0
+  rotationAmount:
+    x: 20
+    y: 20
+    z: 0
+  frequency: 0.2
+  octaves: 1
+  seed: 100
 --- !u!1 &1703130642
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,6 +965,7 @@ GameObject:
   - component: {fileID: 1943380837}
   - component: {fileID: 1943380839}
   - component: {fileID: 1943380838}
+  - component: {fileID: 1943380840}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -1147,6 +1172,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1943380840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943380836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionAmount:
+    x: 0
+    y: 0
+    z: 0
+  rotationAmount:
+    x: 20
+    y: 20
+    z: 0
+  frequency: 0.2
+  octaves: 1
+  seed: 200
 --- !u!1 &2146988237
 GameObject:
   m_ObjectHideFlags: 0
